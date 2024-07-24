@@ -1,0 +1,29 @@
+:host {
+  margin: 10rem;
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  button {
+    margin: 0 1rem 1rem 0;
+  }
+}
+.numbers {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  .number {
+    border-radius: 20%;
+    padding: 0.25rem;
+    &:nth-child(even) {
+      background-color: lightgray;
+    }
+  }
+}
+
